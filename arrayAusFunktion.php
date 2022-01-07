@@ -14,6 +14,12 @@ function ichReturneArray(){
 
 $meinArrayAusDerFunktion = ichReturneArray();
 
-var_dump($meinArrayAusDerFunktion);
+var_dump($meinArrayAusDerFunktion); // Debug Ausgabe des Arrays
+
+// Ausgabe des Arrays
+
+foreach($meinArrayAusDerFunktion as $a){
+    echo "Der Arrayeintrag ist: ".$a."<br>\n";
+}
 
 ?>
